@@ -60,7 +60,6 @@ int print_result(char pid[]) {
 int main() {
     FILE *fptr,  *ps_aux;
     char buffer[256];
-    int pids[512] = {0};
     int count = 0;
 
     ps_aux = popen("ps -eo user,pid,pcpu,pmem,vsz,rss", "r");
