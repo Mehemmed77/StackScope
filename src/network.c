@@ -4,6 +4,7 @@
 #include <stdlib.h>
 
 const char *tcp_state_table[256] = {
+    
     [0x01] = "ESTABLISHED",
     [0x02] = "SYN_SENT",
     [0x03] = "SYN_RECV",
