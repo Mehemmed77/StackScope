@@ -58,7 +58,7 @@ int print_result(char pid[]) {
 }
 
 int main() {
-    FILE *fptr,  *ps_aux;
+    FILE *fptr, *ps_aux;
     char buffer[256];
     int count = 0;
 
